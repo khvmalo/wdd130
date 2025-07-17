@@ -25,11 +25,11 @@ main p {
     padding: 10px;
 }
 
-main{
-    max-width: 780px;
+main {
+    max-width: 880px;
 }
 
-aside{
+aside {
     width: 20em;
     height: auto;
     margin: 1rem;
@@ -37,6 +37,7 @@ aside{
     padding: 1px;
     background-color: lightblue;
     text-align: center;
+    color: black;
 }
 
 aside img {
@@ -44,12 +45,12 @@ aside img {
     height: auto;
 }
 
-aside p{
+aside p {
     padding: 0;
     text-align: center;
 }
 
-footer{
+footer {
     margin-top: 20px;
     border-top: 1px dotted black;
     text-align: center;;
