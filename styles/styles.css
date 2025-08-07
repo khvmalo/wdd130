@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -19,12 +20,14 @@ h1 {
 }
 
 main img {
+    position: relative;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px rgb(0 0 0 /0.5);
     float: right;
+    right: 15px;
 }
 
 main p {
@@ -46,6 +49,7 @@ aside img {
     width: 200px;
     height: auto;
 }
+
 aside h2 {
     position: absolute;
     color: gold;
@@ -66,9 +70,10 @@ footer {
 }
 
 ul {
-    list-style-type:circle;
+    list-style-type: circle;
     clear: both;
 }
+
 /*Class Selectors*/
 
 .box {

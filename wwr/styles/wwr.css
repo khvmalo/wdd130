@@ -1,0 +1,21 @@
+:root{
+  --primary-color: #22274E;
+  --secondary-color: #970627;
+  --accent1-color: #D67AB1;
+  --accent2-color: #C3D898;
+}
+
+.libertinus-serif-regular {
+  font-family: "Libertinus Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-extralight {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+/*https://coolors.co/22274e-970627-d67ab1-c3d898*/
