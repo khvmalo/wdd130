@@ -1,0 +1,81 @@
+:root {
+    --white: #fff;
+    --deep-space-blue: hsla(201, 100%, 14%, 1);
+    --flag-red: hsla(0, 69%, 50%, 1);
+    --vivid-tangerine: hsla(31, 100%, 48%, 1);
+    --sunflower-gold: hsla(40, 97%, 64%, 1);
+    --vanilla-custard: hsla(51, 55%, 82%, 1);
+    --heading-font: 'Times New Roman', Times, serif;
+    --body-font: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--white);
+    color: var(--deep-space-blue);
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--deep-space-blue);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--flag-red);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    background-color: var(--sunflower-gold);
+    top: 30px;
+    padding: 16px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+article {
+    position: absolute;
+    top: 100px;
+    background-color: var(--vivid-tangerine);
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+}

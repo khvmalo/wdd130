@@ -1,6 +1,6 @@
 :root {
     --primary-background-color: white;
-    --heading-font: 'Times New Roman', Times, serif;
+    --heading-font: 'Times New Roman', Times, Serif;
     --heading-background-color: lightblue;
     --heading-text-color: darkblue;
     --box-border: 1px solid black;
@@ -22,10 +22,10 @@ header nav a {
 }
 
 h1 {
+    background-color: var(--primary-background-color);
     font-family: var(--font);
     color: darkblue;
     text-align: var(--center-text-alignment);
-    s
 }
 
 main img {
@@ -33,7 +33,7 @@ main img {
     height: auto;
     border: var(--box-border);
     padding: 2px;
-    margin-left: 15px;
+    margin-left: 10px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
@@ -44,6 +44,7 @@ p {
 
 main {
     max-width: 800px;
+    padding-left: 10px;
 
 }
 
@@ -51,6 +52,7 @@ aside {
     width: 800px;
     text-align: var(--center-text-alignment);
     clear: both;
+    position: relative;
 }
 
 aside img {
@@ -59,9 +61,9 @@ aside img {
 }
 
 aside h2 {
-    position: relative;
-    top: 35px;
-    left: 0;
+    position: absolute;
+    top: 20px;
+    left: 340px;
     color: azure;
 }
 
