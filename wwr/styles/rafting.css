@@ -4,7 +4,6 @@
     --flag-red: hsla(0, 69%, 50%, 1);
     --vivid-tangerine: hsla(31, 100%, 48%, 1);
     --sunflower-gold: hsla(40, 97%, 64%, 1);
-    --vanilla-custard: hsla(51, 55%, 82%, 1);
     --heading-font: 'Times New Roman', Times, serif;
     --body-font: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
 }
@@ -54,11 +53,6 @@ article {
     position: relative;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-}
-
 h1 {
     position: absolute;
     text-align: center;
@@ -69,7 +63,12 @@ h1 {
     opacity: 0.7;
 }
 
-article {
+.hero img {
+    display: block;
+    width: 100%;
+}
+
+.hero article {
     position: absolute;
     top: 100px;
     background-color: var(--vivid-tangerine);
