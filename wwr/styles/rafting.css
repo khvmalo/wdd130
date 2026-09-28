@@ -54,7 +54,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--flag-red);
+    color: var(--deep-space-blue);
 }
 
 nav,
