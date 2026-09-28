@@ -103,6 +103,8 @@ figcaption {
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 2px;
+    border-top: 1px solid var(--vivid-tangerine);
 }
 
 .socialmedia {
