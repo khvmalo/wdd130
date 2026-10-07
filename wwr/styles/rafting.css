@@ -227,3 +227,33 @@ textarea {
 .user-info input {
     width: 320px;
 }
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: var(--sunflower-gold);
+    margin: 5px;
+    padding: 5px;
+}
+
+.employees h2 {
+    display: grid;
+    grid-column: 1/4;
+    justify-content: center;
+    padding: 5px;
+}
+
+.employees figcaption {
+    display: grid;
+    color: var(--deep-space-blue);
+    background-color: transparent;
+    justify-content: space-around;
+}
+
+.profile {
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+
+}
