@@ -130,7 +130,7 @@ footer p {
     position: relative;
 }
 
-main h1 {
+.hero h1 {
     position: absolute;
     text-align: center;
     background-color: var(--sunflower-gold);
@@ -154,4 +154,76 @@ main h1 {
 .hero article img {
     float: right;
     width: 200px;
+}
+
+.feedback-map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.address p {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+form {
+    border: 1px solid black;
+}
+
+.radio p {
+    display: grid;
+    grid-row: 1/4;
+    padding: 2px;
+    margin: 3px;
+    align-items: center;
+}
+
+label[for="feedback"] {
+    display: block;
+    margin: 5px;
+}
+
+form input,
+label,
+textarea {
+    margin: 5px;
+}
+
+form input {
+    padding: 3px;
+}
+
+.form-section {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1px;
+    margin: 1px;
+}
+
+h1 {
+    text-align: center;
+    padding: 2px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 2px 4rem;
+}
+
+textarea {
+    width: 380px;
+}
+
+.user-info input {
+    width: 320px;
 }
